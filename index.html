@@ -9,14 +9,14 @@
 </head>
 <body>
     <form class="border border-1 rounded m-4">
-        <header class="title bg-body-tertiary">
-            <h2>Payment form example</h2>
+        <header class="title bg-body-tertiary m-0 border border-1">
+            <h3 class="m-2 ms-4">Payment form example</h3>
         </header>
         <fieldset>
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-danger m-4" role="alert">
                 Some fields are missing
             </div>
-            <div class="row">
+            <div class="row m-2">
                 <div class="col-5 mb-3">
                     <label  id="basic-addon1">Card #</label>
                     <input type="number" class="form-control" placeholder="XXXXXXXXXXXXXXXX" required="required" maxlength="16" required min="1" aria-label="card" aria-describedby="basic-addon1">
@@ -30,7 +30,7 @@
                     <input type="number" class="form-control" placeholder="Amount" required="required" maxlength="4" required min="1" aria-label="card" aria-describedby="basic-addon1">
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-2">
                 <div class=" col-6 mb-3">
                     <label for="exampleFormControlInput1" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1">
@@ -40,7 +40,7 @@
                     <input type="text" class="form-control" id="exampleFormControlInput1">
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-2">
                 <div class=" col-6 mb-3">
                     <label for="exampleFormControlInput1" class="form-label">City</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1">
@@ -59,33 +59,35 @@
                     <input type="text" class="form-control" id="exampleFormControlInput1">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 bg-secondary">
+            <div class="row m-2">
+                <div class="col-6">
                     <p>We accept:</p>
-                    <div class="form-check form-check-inline">
+                    <div class="bg-secondary rounded w-50">
+                    <div class="form-check form-check-inline m-1">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
                       </div>
-                      <div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline m-1">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
                       </div>
-                      <div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline m-1">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
                         <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-paypal"></i></label>
                       </div>
-                      <div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline m-1">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2"><i class="fa-solid fa-money-bill"></i></label>
                       </div>
+                    </div>
                 </div>
                 <div class="col-6 mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                 </div>
             </div>
-            <footer class="bg-body-secondary">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <footer class="bg-body-secondary m-0 border border-1">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
                     <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
                     <button class="btn btn-primary" type="button">Send</button>
                 </div>
